@@ -1,0 +1,8 @@
+Scaffold-DbContext  -Connection name=DefaultConnection -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context "ApplicationDBContext" -Force
+
+
+
+"LDAP://yourCompanyName.com/DC=yourCompanyName,DC=com"; 
+
+
+"ldap://10.208.32.67:636/azumat.azcuba.cu/DC=azumat,DC=azcuba,DC=cu"

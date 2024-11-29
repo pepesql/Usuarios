@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Usuarios</name>
+    </assembly>
+    <members>
+        <member name="M:Usuarios.Controllers.UsuarioController.Login(Usuarios.Models.UserLogin)">
+            <summary>
+            Autenticacion del usuario en el sistema
+            </summary>
+            <param name="idUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usuarios.Controllers.UsuarioController.CreateUsuario(Usuarios.Models.User)">
+            <summary>
+            Crea el usuario del sistema
+            </summary>
+            <param name="idUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usuarios.Controllers.UsuarioController.ChangePassword(Usuarios.Models.PasswordChange)">
+            <summary>
+            Cambia la contraseña del sistema para el usuario 
+            </summary>
+            <param name="idUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usuarios.Controllers.UsuarioController.DeleteUser(System.Int32)">
+            <summary>
+            Elimina el usuario del sistema
+            </summary>
+            <param name="idUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usuarios.Controllers.UsuarioController.UpdateUsuario(Usuarios.Models.UpdateUser)">
+            <summary>
+            Actualiza el usuario del sistema
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usuarios.Controllers.UsuarioController.GetUsuarios">
+            <summary>
+            Get Los usuarios del sistema
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
